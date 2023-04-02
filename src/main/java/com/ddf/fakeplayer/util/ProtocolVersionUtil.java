@@ -79,6 +79,7 @@ public class ProtocolVersionUtil {
         registerPacketCodec(Bedrock_v568.V568_CODEC, 11, null);
         registerPacketCodec(Bedrock_v575.V575_CODEC, 11, null);
 
+
         //registerPacketCodec(ddI);
 
         codecMap = Collections.unmodifiableMap(codecMap);
