@@ -72,6 +72,10 @@ public class ProtocolVersionUtil {
         registerPacketCodec(Bedrock_v554.V554_CODEC, 11, null);
         registerPacketCodec(Bedrock_v557.V557_CODEC, 11, null);
         registerPacketCodec(Bedrock_v560.V560_CODEC, 11, null);
+        registerPacketCodec(Bedrock_v560.V567_CODEC, 11, null);
+        registerPacketCodec(Bedrock_v560.V568_CODEC, 11, null);
+        registerPacketCodec(Bedrock_v560.V575_CODEC, 11, null);
+
         codecMap = Collections.unmodifiableMap(codecMap);
         rakNetVersionMap = Collections.unmodifiableMap(rakNetVersionMap);
         blockPaletteMap = Collections.unmodifiableMap(blockPaletteMap);
